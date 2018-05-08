@@ -1,6 +1,6 @@
 {
   "name": "stubborn-promise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A promise that will never let you down!",
   "main": "dist/index.js",
   "types": "dist/stubborn.d.ts",

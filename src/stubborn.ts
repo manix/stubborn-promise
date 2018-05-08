@@ -27,7 +27,8 @@ export default class StubbornPromise {
   }
 
   getDelay() {
-    return this.delay(this.ms);
+    this.ms = this.delay(this.ms);
+    return this.ms;
   }
 
   setDelayGetter(getter: (old: number) => number) {
