@@ -32,6 +32,7 @@ export default class StubbornPromise {
 
   setDelayGetter(getter: (old: number) => number) {
     this.delay = getter;
+    return this;
   }
 
   delay(old: number) {
