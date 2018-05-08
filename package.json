@@ -1,0 +1,24 @@
+{
+  "name": "stubborn-promise",
+  "version": "1.0.0",
+  "description": "A promise that will never let you down!",
+  "main": "dist/index.js",
+  "types": "dist/stubborn.d.ts",
+  "scripts": {
+    "build": "babel src --presets babel-preset-env --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manix/stubborn-promise.git"
+  },
+  "author": "Manix <admin@manix.info>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/manix/stubborn-promise/issues"
+  },
+  "homepage": "https://github.com/manix/stubborn-promise#readme",
+  "devDependencies": {
+    "tsc": "^1.20150623.0"
+  }
+}
